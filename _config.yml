@@ -9,7 +9,7 @@ logo: '/assets/images/logo_white.png'
 logo_dark: '/assets/images/logo_blue.png'
 paginate: 15
 productpage: 'https://debugmyresume.com'
-baseurl: /
+baseurl: 'williamg.me/DebugMyResume'
 domain_name: 'http://blog.debugmyresume.com'
 google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
