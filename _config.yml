@@ -1,0 +1,19 @@
+name: Debug My Resume Blog
+description: Practical resume tips and more from a professional programmer & recruiter.
+meta_description: "Blog of Debug My Resume. Learn tips and tricks from a professional programmer and recruiter to improve your resume and other application materials."
+meta_keywords: "jobs,resumes,software,webdev,dev,coder,programming,application,interview,email,cheap,affordable,technology,engineer,school,internship,advice,feedback,edit,blog"
+
+markdown: kramdown
+highlighter: pygments
+logo: '/assets/images/logo_white.png'
+logo_dark: '/assets/images/logo_blue.png'
+paginate: 15
+productpage: 'https://debugmyresume.com'
+baseurl: /
+domain_name: 'http://blog.debugmyresume.com'
+google_analytics: 'UA-XXXXXXXX-X'
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://blog.debugmyresume.com'
+author:         'William Ganucheau'

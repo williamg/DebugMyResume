@@ -1,0 +1,74 @@
+---
+---
+
+.post-excerpt p {
+	display:inline;
+}
+
+@import
+	"syntax"
+;
+
+// Background gradient on main page
+$topBarDarkBlue: #104892;
+$topBarLightBlue: #8DBFFF;
+
+@mixin bg-gradient() {
+	background: -webkit-gradient(linear, left top, right bottom,
+		color-stop(0%, $topBarDarkBlue),
+		color-stop(100%, $topBarLightBlue));
+	background: -moz-gradient(linear, left top, right bottom,
+		color-stop(0%, $topBarDarkBlue),
+		color-stop(100%, $topBarLightBlue));
+	background: -ms-gradient(linear, left top, right bottom,
+		color-stop(0%, $topBarDarkBlue),
+		color-stop(100%, $topBarLightBlue));
+}
+
+.main-header.no-cover {
+	@include bg-gradient();
+
+	.page-title {
+		color: #FFFFFF;
+	}
+
+	.page-description {
+		color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+.main-header:not(.post-head) {
+	.subscribe-button, .back-button {
+		border-color: #FFFFFF!important;
+		color: #FFFFFF!important;
+	}
+
+	.subscribe-button:hover, .back-button:hover {
+		color: #104892!important;
+		background-color: #FFFFFF;
+	}
+}
+
+.main-header-content.inner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.post-meta {
+	margin-bottom: 10px;
+}
+
+#nav-blog-logo
+{
+	img {
+		max-width: 80%;
+		max-height: 80%;
+	}
+}
+
+#nav-blog-logo:hover {
+	background: none!important;
+}
+
+
