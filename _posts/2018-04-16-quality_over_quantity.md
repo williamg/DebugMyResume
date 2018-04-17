@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Resume Debugging: Quality Over Quantity"
+title:  "Quality Over Quantity"
 date:   2018-04-11 10:18:00
 cover: '/assets/images/revising.jpg'
 ---
