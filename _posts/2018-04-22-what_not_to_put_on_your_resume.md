@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What NOT to Put on Your Resume"
-date:   2018-04-21 10:00:00
+date:   2018-04-22 2:15:00
 cover: '/assets/images/stop.jpg'
 ---
 
