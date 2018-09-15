@@ -9,10 +9,10 @@ logo: '/assets/images/logo_white.png'
 logo_dark: '/assets/images/logo_blue.png'
 paginate: 15
 productpage: 'https://debugmyresume.com'
-domain_name: 'http://blog.debugmyresume.com'
+domain_name: 'https://blog.debugmyresume.com'
 google_analytics: 'UA-117141667-1'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://blog.debugmyresume.com'
+url:            'https://blog.debugmyresume.com'
 author:         'Will Ganucheau'
